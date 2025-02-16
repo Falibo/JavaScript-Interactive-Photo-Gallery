@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Photo Gallery</title>
+        <link rel="stylesheet" href="css/gallery.css">
+        <script src="js/gallery.js"></script>
+    </head>
+    <body>
+        <h1>Explore our Destinations</h1>
+        <div id="image">
+            Hover over an image below to display here.
+        </div>
+
+        <img class="preview" alt="New York City"
+            src="img/nyc.jpg"
+            onmouseover="upDate(this)" onmouseout="unDo()">
+
+        <img class="preview" alt="Barcelona, Spain"
+            src="img/barcelona.jpg"
+            onmouseover="upDate(this)" onmouseout="unDo()">
+
+        <img class="preview"
+            src="img/tokyo.jpg"
+            alt="Tokyo, Japan" onmouseover="upDate(this)" onmouseout="unDo()">
+
+    </body>
+</html>
